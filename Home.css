@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    background-color: #f5f5f5;
+    /* Màu nền cho toàn trang */
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+/* Bố cục chính của header */
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+#logo {
+    height: 50px;
+
+}
+
+
+header>div>div:last-child {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header a {
+    margin: 0;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+    font-weight: 600px;
+    text-decoration: none;
+
+}
+
+
+header>div>div:last-child>div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.plusIcon {
+    height: 8px;
+    vertical-align: middle;
+}
+
+header>div>div:last-child>div:last-child {
+    background-color: #FF64AE;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 50px;
+}
