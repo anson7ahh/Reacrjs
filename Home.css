@@ -1,77 +1,142 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    border: 0;
+    font-size: 100%;
 }
 
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin: 0;
-    background-color: #f5f5f5;
-    /* Màu nền cho toàn trang */
-}
-
-header {
     background-color: #ffffff;
-    padding: 10px 20px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-
 }
 
-/* Bố cục chính của header */
-header>div {
+.header {
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 100%;
+    background-image: url('public/SlideBackground.svg');
+    background-repeat: no-repeat;
+    background-size: 1266.42px 743px;
+}
+
+
+.headerContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-/* Logo */
-#logo {
-    height: 50px;
+    height: 63px;
+    padding: 41px 150px 0 150px;
+    column-gap: 195 px;
 
 }
 
 
-header>div>div:last-child {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
+.logo {
+    height: 63px;
+    width: 258px;
 }
 
+.menuLink {
 
-header a {
-    margin: 0;
     font-size: 16px;
+    line-height: 24px;
     cursor: pointer;
-    color: #333;
-    transition: color 0.3s ease;
-    font-weight: 600px;
+    color: #8B8B8B;
     text-decoration: none;
-
+    letter-spacing: 2px;
 }
 
 
-header>div>div:last-child>div:first-child {
+
+.active {
     display: flex;
     align-items: center;
-    gap: 5px;
+    column-gap: 4px;
+    color: #414880;
+    font-weight: 600;
+    letter-spacing: 1.6px;
 }
 
+.menu {
+    display: flex;
+    column-gap: 45px;
+    line-height: 24px;
+    align-items: center;
 
-.plusIcon {
-    height: 8px;
-    vertical-align: middle;
 }
 
-header>div>div:last-child>div:last-child {
+.menuLinkContact {
     background-color: #FF64AE;
     color: white;
-    padding: 5px 15px;
+    text-align: center;
+    line-height: 54px;
+    height: 54px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    text-decoration: none;
     border-radius: 50px;
+    width: 158px;
+    letter-spacing: 2px;
+
+}
+
+.banner {
+    /* position: relative; */
+    width: 1097.5px;
+    height: 542px;
+    margin: 159px 0 0 189px;
+    display: flex;
+    color: #091156;
+
+
+}
+
+.contentBanner {
+    display: inline;
+    width: auto;
+    margin-top: 53px;
+}
+
+.contentBannerTitle {
+    max-width: 430px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    padding: 5px 0;
+}
+
+.contentBannerDescription {
+    max-width: 474px;
+    padding: 4px 0;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    color: #091156;
+}
+
+.btnDetail {
+    background-color: #FF64AE;
+    font-size: 16px;
+    border-radius: 50px;
+    font-weight: 500;
+    width: 200px;
+    height: 58.36px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 58.36px;
+    margin-top: 28px;
+}
+
+.bannerImg {
+    width: 601.5px;
+    height: 397.5px;
+    margin-left: 22px;
+    /* position: absolute; */
+    left: 496px;
+    /* top: 0; */
 }

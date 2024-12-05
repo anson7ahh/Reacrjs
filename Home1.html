@@ -5,30 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Home.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div>
-            <div>
-                <img id="logo" src="public/MainLogo.png" alt="logo">
+    <!-- Header -->
+    <header class="header">
+        <div class="headerContainer">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="public/MainLogo.png" alt="logo">
             </div>
-            <div>
-                <div>
+            <!-- end Logo -->
+            <!-- Menu -->
+            <nav class="menu">
+                <div class="active">
                     <span>Home</span>
-                    <img class="plusIcon" src="public/PlusIcon.png" alt="logo">
+                    <img class="menuIcon" src="public/PlusIcon.png" alt="icon">
                 </div>
-                <a href="">About</a>
-                <a href=""  >Services</a>
-                <a href="">Gallery</a>
-                <a href="">Blog</a>
-                <div>Contact</div>
+                <a class="menuLink" href="#">About</a>
+                <a class="menuLink" href="#">Service</a>
+                <a class="menuLink" href="#">Gallery</a>
+                <a class="menuLink" href="#">Blog</a>
+                <a class="menuLinkContact" href="#">Contact</a>
+            </nav>
+            <!-- End Menu -->
+        </div>
+
+
+
+        <div class="banner">
+            <div class="contentBanner">
+                <p class="contentBannerTitle">Clinic & beauty consultant</p>
+                <p class="contentBannerDescription">It is a long established fact that a reader will be by the
+                    readable content of a page.</p>
+                <p class="btnDetail">More Details</p>
+            </div>
+            <div class="bannerImg">
+                <img src="public/banner.png" alt="banner">
             </div>
         </div>
     </header>
+    <!-- End Header -->
+    <div class="mainContent">
+        <p>Main Services</p>
+        <p>Learn services to focus on your beauty</p>
+    </div>
+
 </body>
 
 </html>
