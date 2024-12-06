@@ -241,7 +241,8 @@ button {
     line-height: 21px;
     font-size: 14px;
     font-weight: 400;
-    margin-bottom: 52px;
+    margin-bottom: 70px;
+    color: #8B8B8B;
 }
 
 .aboutUs {
@@ -298,12 +299,7 @@ button {
     border-radius: 50px;
     height: 350px !important;
     margin: -33px 0 0 58px;
-
-
 }
-
-
-
 
 .containerAboutContent {
     z-index: 2;
@@ -367,4 +363,62 @@ button {
 .bubble>img {
     width: 948.15px;
     height: 1028.89px;
+}
+
+.teamsName {
+    margin: 54px auto 15px;
+
+    color: #FF64AE;
+}
+
+.professionalIteams {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 42px;
+    width: 343px;
+}
+
+.professionalImg {
+    margin: auto;
+    width: 146px;
+    height: 146px;
+    margin-bottom: 53px;
+}
+
+
+
+.professionalName {
+    margin: auto;
+    color: #FF64AE;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.professionalTitle {
+    margin: auto;
+    color: #091156;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22.5px;
+    margin-bottom: 19px;
+}
+
+.professionalDescription {
+    margin: 0 auto 40px;
+    color: #8B8B8B;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    max-width: 270px;
+    text-align: center;
+}
+
+
+
+.professionalIcon {
+    margin: 0 auto 96px;
 }
