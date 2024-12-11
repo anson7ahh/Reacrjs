@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="tablet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -33,6 +35,9 @@
                 <a class="menuLink" href="#">Blog</a>
                 <a class="menuLinkContact" href="#">Contact</a>
             </nav>
+            <div onclick="handleOnclickOpen()" id="hambugerMenu">
+                <img src="public/hamburger-menu.svg" alt="hambuger">
+            </div>
             <!-- End Menu -->
         </div>
         <div class="container banner ">
@@ -47,6 +52,19 @@
             </div>
         </div>
     </header>
+    <div class="drawerOverlay" id="drawerOverlay" onclick="handleOnclickClosedrawerOverlay()"></div>
+    <div class="drawer" id="drawer">
+        <div class="imgClose" onclick="handleOnclickClose()">
+            <img src="public/close.svg" alt="close">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
     <div class="headerImg">
         <div class="Img">
             <img src="public/SlideBackground.svg" alt="">
@@ -125,12 +143,12 @@
         </div>
         <!-- professional Teams -->
         <div class="container Professional">
-            <!-- <div class="section"> -->
-            <p class="mainService">Professional Teams</p>
-            <p class="mainServiceTitle">The Professional expert</p>
-            <p class="mainServiceDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.
-            </p>
-            <!-- </div> -->
+            <div class="section">
+                <p class="mainService">Professional Teams</p>
+                <p class="mainServiceTitle">The Professional expert</p>
+                <p class="mainServiceDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.
+                </p>
+            </div>
 
             <div class="featureSection ">
                 <div class="professionalIteams">
@@ -182,28 +200,32 @@
                 <p class="contactUsTitle">Contact Us</p>
                 <p class="contactUsAction">Send your inquiry to our expert team</p>
                 <p class="contactUsDescription">Lorem ipsum dolor sit amet nulla turapis tellus.</p>
-                <div class="contactUsForm">
+                <form action="">
+                    <div class="contactUsForm">
 
-                    <div class="contactUsName">
-                        <input class="inputName" type="text" placeholder="First name">
-                        <input class="inputName" type="text" placeholder="Last name">
+                        <div class="contactUsName">
+                            <input class="inputName" type="text" placeholder="First name">
+                            <input class="inputName" type="text" placeholder="Last name">
+                        </div>
+                        <input type="email" class="inputEmail" placeholder="Email address">
+                        <input type="text" class="inputMessage" placeholder="Subject message">
+                        <textarea class="inputIquiry" placeholder="Your inquiry here"></textarea>
                     </div>
-                    <input type="email" class="inputEmail" placeholder="Email address">
-                    <input type="text" class="inputMessage" placeholder="Subject message">
-                    <textarea class="inputIquiry" placeholder="Your inquiry here"></textarea>
-                </div>
-                <button class="btnSend">Send Message</button>
+                    <button onsubmit="" class="btnSend">Send Message</button>
+                </form>
             </div>
+
         </div>
     </div>
     <!-- end wrapper -->
     <!-- footer -->
-    <footer class=" footer">
-        <div class=" footerwrapper ">
-
+    <footer class="footer">
+        <div class="footerwrapper">
             <div class="footerContent">
                 <div class="footerLogo">
-                    <img src="public/FooterLogo.png" alt="logo">
+                    <div>
+                        <img src="public/FooterLogo.png" alt="logo">
+                    </div>
                     <p class="themeDescription">
                         <span class="Beautice">Beautice</span> <span class="themeText">is a Beauty Clinic WordPress
                             Theme.</span>
@@ -266,10 +288,7 @@
             <img src="public/BackgroundBubbleContactUs.png" alt="BackgroundBubbleContactUs">
         </div>
     </div>
-
-
-
-
 </body>
+<script type="text/javascript" src="index.js"></script>
 
 </html>
