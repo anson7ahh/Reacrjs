@@ -595,7 +595,7 @@ footer {
 
 .footerwrapper {
     width: 100%;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     position: relative;
     z-index: 3;
     padding: 210.34px 0 0 0;
@@ -622,6 +622,7 @@ footer {
     display: flex;
     flex-direction: row;
     margin-top: 16px;
+    margin-left: 150px;
 
 
 }
