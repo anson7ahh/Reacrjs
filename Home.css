@@ -45,12 +45,12 @@ input {
 
 
 .headerContainer {
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 63px;
-    padding: 41px 150px 0 150px;
-    column-gap: 195 px;
+    column-gap: 190;
     position: relative;
     z-index: 1;
 }
@@ -64,7 +64,7 @@ input {
 }
 
 .logo {
-    height: 63px;
+
     width: 258px;
 }
 
@@ -117,13 +117,12 @@ input {
 }
 
 .banner {
-    margin-top: 159px;
+
     position: relative;
     z-index: 1;
     display: flex;
-
     padding-bottom: 144.5px;
-
+    margin: 0 auto;
 
 }
 
@@ -131,6 +130,7 @@ input {
     min-width: 474px;
     color: #091156;
     padding-left: 39px;
+    margin-top: 159px;
 }
 
 .contentBannerTitle {
@@ -169,7 +169,7 @@ input {
     height: 397.5px;
     margin-left: 20px;
     left: 496px;
-
+    margin-top: 159px;
 }
 
 .container {
@@ -186,6 +186,15 @@ input {
     text-align: center;
     display: flex;
     align-items: center;
+}
+
+.mainServiceSection {
+    margin-top: 300px;
+    color: #FF64AE;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
 }
 
 .mainService {
@@ -317,10 +326,14 @@ input {
 
 .AboutUsImg {
     z-index: 2;
-    width: 476px !important;
+    width: 476px;
     border-radius: 50px;
-    height: 350px !important;
+    height: 350px;
     margin: -33px 0 0 58px;
+}
+
+.AboutUsImg>img {
+    width: 100%;
 }
 
 .containerAboutContent {
@@ -397,7 +410,7 @@ input {
     text-align: center;
     max-width: 1085px;
     margin: 0 auto;
-    margin-top: 209.2px;
+    margin-top: 90.2px;
 }
 
 .professionalIteams {
@@ -582,13 +595,13 @@ footer {
 
 .footerwrapper {
     width: 100%;
+    margin-left: 150px;
     position: relative;
     z-index: 3;
-    padding: 210.34px 0px 0 0;
-    margin: 0px 0 0 150px;
+    padding: 210.34px 0 0 0;
     display: flex;
     flex-direction: column;
-    width: auto !important;
+    width: 100%;
 
 }
 
@@ -645,8 +658,7 @@ footer {
     line-height: 24px;
     letter-spacing: 0.1em;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+
 }
 
 .themeText {
@@ -656,8 +668,7 @@ footer {
     line-height: 24px;
     letter-spacing: 1.6px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+
 
 }
 
@@ -671,8 +682,6 @@ footer {
     line-height: 21px;
     letter-spacing: 1.4px !important;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     margin-left: 31px;
     margin-bottom: 4px;
 }
@@ -771,18 +780,18 @@ footer {
     column-gap: 45px;
     width: 25px;
     height: 27.84px;
+    justify-items: start;
 }
 
 .footerSocialMedia {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    column-gap: 685px;
 }
 
 
 .toTopButton {
     position: absolute;
-    right: 65.6px;
+    right: 175.6px;
     top: 500.34px;
 }
 
