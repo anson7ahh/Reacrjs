@@ -745,4 +745,8 @@
     .backgroundFooter {
         display: none;
     }
+
+    .footerSocialMedia {
+        margin-bottom: 50px;
+    }
 }
