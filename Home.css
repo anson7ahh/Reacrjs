@@ -560,7 +560,7 @@ input {
 
 .backgroundBubbleContactUs {
     position: absolute;
-    top: 3023px;
+    top: 3238px;
     z-index: 0;
 }
 
@@ -595,7 +595,6 @@ footer {
 
 .footerwrapper {
     width: 100%;
-    /* margin-left: 150px; */
     position: relative;
     z-index: 3;
     padding: 210.34px 0 0 0;
@@ -621,10 +620,10 @@ footer {
 .footerContent {
     display: flex;
     flex-direction: row;
-    margin-top: 16px;
-    margin-left: 150px;
+    /* margin-top: 16px;
+    margin-left: 150px; */
 
-
+    justify-content: center;
 }
 
 .footerLogo {
@@ -787,6 +786,8 @@ footer {
 .footerSocialMedia {
     display: flex;
     column-gap: 685px;
+    justify-content: center;
+    margin-left: 150px;
 }
 
 
