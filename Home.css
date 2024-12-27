@@ -91,7 +91,8 @@ input {
 }
 .menuActive span {
   align-items: center;
-  color: #414880;
+  /* color: #414880; */
+  color:red
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
